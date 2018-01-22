@@ -6,13 +6,10 @@ module.exports = {
     filename: "js/app.js"
   },
   module: {
-    rules: [
+    loaders : [
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: "babel-loader"
-        }
+        test : /\.jsx?/,
+        loader : 'babel-loader'
       }
     ]
   }
