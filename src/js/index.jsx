@@ -7,7 +7,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      submitted: [['hello', 'ollhe']]
+      submitted: []
     }
 
     this.handleNewSubmission = this.handleNewSubmission.bind(this);
